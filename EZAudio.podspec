@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.screenshots  = "https://s3-us-west-1.amazonaws.com/ezaudio-media/EZAudioSummary.png"
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
     s.author       = { "Syed Haris Ali" => "syedhali07@gmail.com" }
-    s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '9.3'
     s.osx.deployment_target = '10.8'
     s.source       = { :git => "https://github.com/educreations/EZAudio.git", :branch => 'educreations' }
     s.exclude_files = [ 'EZAudio/TPCircularBuffer.{h,c}', 'EZAudio/EZAudioiOS.h', 'EZAudio/EZAudioOSX.h' ]
